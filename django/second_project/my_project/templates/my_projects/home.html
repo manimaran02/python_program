@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="project-title">
+        <h1>
+        <center>
+            My Projects
+        </center>
+    </h1>
+    </div>
+    {% for project in my_projects %}
+
+    <h2>
+        <center>
+            {{project.name}}
+        </center>
+        {% endfor %}
+    </h2>
+
+
+</body>
+</html>
